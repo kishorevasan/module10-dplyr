@@ -2,16 +2,9 @@
 # Use a different appraoch to accomplish the same tasks as exercise-1
 
 # install and load dplyr
-install.packages("dplyr")
 library("dplyr")
 
 # Exercise 1: Data Frame Practice
-
-# Install devtools package: allows installations from GitHub
-install.packages('devtools')
-
-# Install "fueleconomy" package from GitHub
-devtools::install_github("hadley/fueleconomy")
 
 # Require/library the fueleconomy package
 library(fueleconomy)
